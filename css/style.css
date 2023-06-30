@@ -127,3 +127,28 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media screen and (max-width: 1141px) {
+     .container{
+         width: 100vw;
+         padding: 0 2rem ;
+     }
+     .card{
+         height: 100%;
+     }
+     .col{
+         max-width: calc(100vw/2);
+     }
+ }
+
+ @media screen and (max-width: 769px) {
+    .container{
+        width: 100vw;
+        padding: 0 2rem ;
+    }
+    .card{
+        height: 100%;
+    }
+    .col{
+        max-width: calc(100vw/2);
+    }
+ }  
