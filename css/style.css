@@ -152,3 +152,42 @@ img {
         max-width: calc(100vw/2);
     }
  }  
+ @media screen and (max-width: 481px) {
+    .container{
+        width: 100vw;
+    }
+    .col{
+        max-width: 100%;
+        padding: 3rem 0;
+    }
+    .card{
+        height: 100%;
+    }
+    .lessons .col,
+    .steps .col{
+        width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why-us{
+        background-color: #222222;
+    }
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+    }
+    .steps{
+       margin: 0 ;
+       padding: 3rem 0;
+    }
+    section{
+        padding: 3rem 0
+    }
+    h1{
+        margin:0
+    }
+}
+    
+ 
